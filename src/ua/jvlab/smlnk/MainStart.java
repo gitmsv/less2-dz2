@@ -24,7 +24,8 @@ public class MainStart {
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Укажите № квартиры:");
             int apartment = sc.nextInt();
-
+            sc.close();
+System.out.println("----------------------------------");
             switch (apartment) {
                 case 1:
                 case 2:
@@ -218,6 +219,7 @@ public class MainStart {
                 }
 
             }
+           // System.out.println("----------------------------------");
             System.out.println("квартира № " + apartment + " размещена на " + floor);
         }
     }
