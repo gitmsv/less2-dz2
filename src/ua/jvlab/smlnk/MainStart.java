@@ -25,7 +25,7 @@ public class MainStart {
             System.out.println("Укажите № квартиры:");
             int apartment = sc.nextInt();
             sc.close();
-System.out.println("----------------------------------");
+            System.out.println("----------------------------------");
             switch (apartment) {
                 case 1:
                 case 2:
@@ -219,7 +219,6 @@ System.out.println("----------------------------------");
                 }
 
             }
-           // System.out.println("----------------------------------");
             System.out.println("квартира № " + apartment + " размещена на " + floor);
         }
     }
